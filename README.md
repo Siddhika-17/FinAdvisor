@@ -1,8 +1,12 @@
 FinAdvisor: AI Agent for Digital Financial Literacy
+
 🚀 Overview
+
 FinAdvisor is an AI-powered digital financial literacy agent built for the IBM Hackathon. It leverages IBM Watsonx and Retrieval-Augmented Generation (RAG) to deliver personalized, multilingual, document-based answers about financial topics, making digital finance education more accessible—especially for underserved communities.
 
+
 📌 Problem Statement
+
 In a rapidly evolving digital economy, many people—particularly in rural or semi-urban areas—lack the knowledge to make informed financial decisions. Existing resources are often complex or not tailored to individual needs.
 
 FinAdvisor addresses this by:
@@ -17,7 +21,9 @@ Supporting multiple languages
 
 Delivering interactive and scenario-based learning
 
+
 🛠️ Technologies Used
+
 IBM Watsonx.ai Studio
 
 IBM Granite Foundation Model (LLM)
@@ -30,7 +36,9 @@ IBM Cloud Object Storage
 
 Documents from RBI, NPCI, and other financial authorities
 
+
 ☁️ IBM Cloud Services Used
+
 Watsonx.ai Studio
 
 IBM Granite Model
@@ -43,7 +51,9 @@ IBM Cloud IAM
 
 IBM Cloud Object Storage
 
+
 🎯 Wow Factors
+
 Grounded answers from real RBI/NPCI documents via RAG
 
 Built entirely on IBM Cloud
@@ -54,7 +64,9 @@ Multilingual and scalable
 
 Educates users on scams, savings, stock markets, and more
 
+
 👥 Target End Users
+
 General public
 
 Students and young professionals
@@ -67,7 +79,9 @@ Customer service centers
 
 Educational institutions
 
+
 ⚙️ Setup Instructions
+
 Clone the repository:
 
 bash
@@ -82,7 +96,9 @@ Configure vector index and connect to your LLM
 
 Deploy the AI agent via IBM Watsonx Studio
 
+
 💬 Quick Start Questions
+
 Users can start with:
 
 "What is UPI?"
@@ -93,31 +109,41 @@ Users can start with:
 
 "Explain budgeting for students."
 
+
 🔧 Tools & Testing
+
 IBM Watsonx Studio for development and testing
 
 Manual testing with real-life financial queries
 
 Evaluation of response accuracy and politeness for off-topic questions
 
+
 🌐 Deployment
+
 The agent is deployed via IBM Watsonx and accessible through:
 
 Chat interface
 
 WhatsApp/mobile app (future scope)
 
+
 📡 API Reference
+
 API endpoints are available post-deployment for integration into mobile/web apps.
 
+
 📚 Resources Used
+
 RBI Financial Education PDFs
 
 NPCI Guidelines
 
 Financial policy documents from government sources
 
+
 📈 Results
+
 Successfully deployed AI agent that:
 
 Retrieves grounded responses
@@ -126,10 +152,14 @@ Engages in multilingual conversations
 
 Simulates real-life financial scenarios
 
+
 ✅ Conclusion
+
 FinAdvisor empowers individuals with personalized, reliable financial literacy through AI. It bridges the digital divide and supports financial inclusion by using IBM’s cutting-edge cloud and AI technologies.
 
+
 🌱 Future Scope
+
 Integration with WhatsApp or mobile apps
 
 Voice-driven queries via speech-to-text
@@ -140,9 +170,12 @@ Localized policy updates
 
 Language expansion using Watson Language Translator
 
+
 🧠 IBM Certifications
+
 This project aligns with IBM SkillBuild and Watsonx Certifications.
 
 🔗 GitHub Repository
+
 GitHub - Siddhika-17/FinAdvisor
 
