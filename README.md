@@ -1,181 +1,155 @@
-FinAdvisor: AI Agent for Digital Financial Literacy
+# 💸 AI Agent for Digital Financial Literacy
 
-🚀 Overview
+A smart, AI-powered assistant designed to bridge the financial knowledge gap in underserved communities. Built on IBM Cloud and Watsonx.ai, this solution uses Retrieval-Augmented Generation (RAG) and trusted financial documents to deliver grounded, personalized answers to user queries on finance.
 
-FinAdvisor is an AI-powered digital financial literacy agent built for the IBM Hackathon. It leverages IBM Watsonx and Retrieval-Augmented Generation (RAG) to deliver personalized, multilingual, document-based answers about financial topics, making digital finance education more accessible—especially for underserved communities.
+---
 
+## 🧩 Problem Statement
 
-📌 Problem Statement
+In the growing digital economy, a large population—especially in rural or semi-urban regions—lacks basic financial literacy. Many struggle to understand digital banking, UPI, online scams, credit scores, or budgeting, leading to poor money management, fraud exposure, or financial exclusion.
 
-In a rapidly evolving digital economy, many people—particularly in rural or semi-urban areas—lack the knowledge to make informed financial decisions. Existing resources are often complex or not tailored to individual needs.
+---
 
-FinAdvisor addresses this by:
+## 💡 Proposed Solution
 
-Understanding natural language queries about finance
+An AI-powered agent that:
 
-Providing real-time, easy-to-understand, and contextual guidance
+- Understands user queries in natural language
+- Retrieves accurate answers from official financial documents (e.g., RBI, NPCI)
+- Supports education on UPI, credit, interest rates, fraud, investments, and more
+- Works in multiple languages (future-ready)
+- Provides real-time, document-grounded, personalized responses
 
-Educating users on topics like UPI, credit scores, budgeting, loans, investments, fraud prevention, and more
+---
 
-Supporting multiple languages
+## 🧠 Technologies Used
 
-Delivering interactive and scenario-based learning
+- IBM Watsonx.ai Studio  
+- IBM Granite Foundation Model (LLM)  
+- Retrieval-Augmented Generation (RAG) using Vector Index  
+- IBM Cloud Object Storage  
+- NLP for query processing  
+- Official RBI/NPCI PDFs  
 
+---
 
-🛠️ Technologies Used
+## ☁️ IBM Cloud Services Used
 
-IBM Watsonx.ai Studio
+- Watsonx.ai Studio  
+- IBM Granite Model  
+- Watsonx Vector Index  
+- IBM Cloud Lite Account  
+- IBM Cloud IAM  
+- IBM Cloud Object Storage  
 
-IBM Granite Foundation Model (LLM)
+---
 
-Vector Index (RAG)
+## 🌟 Wow Factors
 
-NLP techniques
+- 📚 Answers are grounded in real financial documents (RBI, NPCI, etc.)
+- 🌐 Multilingual support (planned via Watson Language Translator)
+- 🤖 Handles off-topic questions with graceful responses
+- 🧠 Personalized advice tailored to user profile and financial literacy level
+- 🔐 Educates users on fraud, loans, UPI, savings, and interest rates
+- ☁️ 100% IBM Cloud-native build
 
-IBM Cloud Object Storage
+---
 
-Documents from RBI, NPCI, and other financial authorities
+## 👥 End Users
 
+- General public and rural citizens  
+- Students and young professionals  
+- First-time digital banking users  
+- NGOs, outreach programs, and SHGs  
+- Educators and customer support centers  
 
-☁️ IBM Cloud Services Used
+---
 
-Watsonx.ai Studio
+## 🚀 How to Set Up and Deploy
 
-IBM Granite Model
+1. Sign in to [IBM Cloud Lite](https://cloud.ibm.com)
+2. Open **Watsonx.ai Studio**
+3. Create a new project
+4. Upload PDFs from trusted sources (RBI, NPCI, etc.)
+5. Create a **Vector Index** with those documents
+6. Configure the **Granite LLM** to interpret and respond
+7. Set up agent instructions and response handling
+8. Test via the preview panel
+9. Deploy via:
+   - Embedded web widget
+   - Streamlit front-end
+   - Custom web interface
 
-Watsonx Vector Index
+---
 
-IBM Cloud Lite Account
+## 🧪 Tools Used and Testing
 
-IBM Cloud IAM
+- IBM Watsonx.ai Playground
+- JSON-based agent configuration
+- Manual testing with real user queries
+- Preview panel for deployment simulations
 
-IBM Cloud Object Storage
+---
 
+## 🔌 API Reference
 
-🎯 Wow Factors
+- IBM Watsonx Inference API  
+- Watsonx Vector Index Query API  
+- IAM Authentication & Access APIs  
 
-Grounded answers from real RBI/NPCI documents via RAG
+---
 
-Built entirely on IBM Cloud
+## 📊 Results
 
-Handles unrelated queries politely
+- Successfully deployed a functional AI financial advisor
+- Provided document-based, real-time answers
+- Accurately responded to various financial literacy queries
+- Demonstrated value in non-English speaking scenarios (future multilingual)
 
-Multilingual and scalable
+---
 
-Educates users on scams, savings, stock markets, and more
+## 📌 Resources List
 
+- [RBI Official Website](https://rbi.org.in)
+- [NPCI Official Site](https://npci.org.in)
+- IBM SkillsBuild  
+- Watsonx.ai Documentation  
 
-👥 Target End Users
+---
 
-General public
+## ✅ Conclusion
 
-Students and young professionals
+The AI Agent for Digital Financial Literacy brings clarity, safety, and confidence to users navigating financial systems for the first time. It is an impactful solution for real-world financial empowerment, especially for those left behind in the digital divide. With scalable architecture on IBM Cloud and future-ready features like voice input and multilingual support, this project stands as a promising innovation for inclusive financial education.
 
-Rural and semi-urban populations
+---
 
-NGOs, SHGs, government programs
+## 🔮 Future Scope
 
-Customer service centers
+- 📱 WhatsApp and mobile app integrations  
+- 🎙️ Voice-driven queries (speech-to-text)  
+- 📊 Monthly financial reports for users  
+- 🌍 Region-specific policy and scheme updates  
+- 🌐 Expand multilingual support using Watson Language Translator  
 
-Educational institutions
+---
 
+## 🔗 GitHub Repository
 
-⚙️ Setup Instructions
+[👉 GitHub Project](https://github.com/Bharat1417/FINANCIALADVISOR.git)
 
-Clone the repository:
+---
 
-bash
-Copy
-Edit
-git clone https://github.com/Siddhika-17/FinAdvisor.git
-Set up IBM Watsonx.ai with necessary credentials
+## 🏅 IBM Certifications
 
-Upload financial documents (PDFs) to IBM Cloud Object Storage
+- IBM Cloud Practitioner  
+- IBM Watsonx Foundations  
+- IBM SkillsBuild Badges  
 
-Configure vector index and connect to your LLM
+---
 
-Deploy the AI agent via IBM Watsonx Studio
+## 🙏 Acknowledgments
 
+Thanks to the IBM Hackathon team, educators, and the creators of public financial education content that enabled this meaningful project.
 
-💬 Quick Start Questions
-
-Users can start with:
-
-"What is UPI?"
-
-"How can I improve my credit score?"
-
-"What is a safe way to invest?"
-
-"Explain budgeting for students."
-
-
-🔧 Tools & Testing
-
-IBM Watsonx Studio for development and testing
-
-Manual testing with real-life financial queries
-
-Evaluation of response accuracy and politeness for off-topic questions
-
-
-🌐 Deployment
-
-The agent is deployed via IBM Watsonx and accessible through:
-
-Chat interface
-
-WhatsApp/mobile app (future scope)
-
-
-📡 API Reference
-
-API endpoints are available post-deployment for integration into mobile/web apps.
-
-
-📚 Resources Used
-
-RBI Financial Education PDFs
-
-NPCI Guidelines
-
-Financial policy documents from government sources
-
-
-📈 Results
-
-Successfully deployed AI agent that:
-
-Retrieves grounded responses
-
-Engages in multilingual conversations
-
-Simulates real-life financial scenarios
-
-
-✅ Conclusion
-
-FinAdvisor empowers individuals with personalized, reliable financial literacy through AI. It bridges the digital divide and supports financial inclusion by using IBM’s cutting-edge cloud and AI technologies.
-
-
-🌱 Future Scope
-
-Integration with WhatsApp or mobile apps
-
-Voice-driven queries via speech-to-text
-
-Monthly financial summaries
-
-Localized policy updates
-
-Language expansion using Watson Language Translator
-
-
-🧠 IBM Certifications
-
-This project aligns with IBM SkillBuild and Watsonx Certifications.
-
-🔗 GitHub Repository
-
-GitHub - Siddhika-17/FinAdvisor
+---
 
