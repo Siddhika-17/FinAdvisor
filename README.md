@@ -1,5 +1,4 @@
 FinAdvisor: AI Agent for Digital Financial Literacy
-
 🚀 Overview
 FinAdvisor is an AI-powered digital financial literacy agent built for the IBM Hackathon. It leverages IBM Watsonx and Retrieval-Augmented Generation (RAG) to deliver personalized, multilingual, document-based answers about financial topics, making digital finance education more accessible—especially for underserved communities.
 
