@@ -85,7 +85,6 @@ An AI-powered agent that:
 ## 🧪 Tools Used and Testing
 
 - IBM Watsonx.ai Playground
-- JSON-based agent configuration
 - Manual testing with real user queries
 - Preview panel for deployment simulations
 
